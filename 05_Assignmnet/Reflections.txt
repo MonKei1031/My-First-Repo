@@ -1,0 +1,4 @@
+This activity took me around 30-40 minutes.
+
+
+I changed all <h3> into <p> because putting an <h3> inside <label for="profession">What best describes you?</label> made the dropdown list sit below the label instead of beside it. I made this change because I want the file to look like the sample and make the labels uniform.

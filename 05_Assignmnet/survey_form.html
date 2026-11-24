@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Survey Form</h1>
+    </header>
+
+    <form action="/submit_form" method="POST">
+
+        <section>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
+        </section>
+
+        <section>
+            <br>
+            <br>
+            <p>How satisfied are you with our service?</p>
+            <div>
+                <input type="radio" id="Very Satisfied" name="satisfaction_level" value="Very Satisfied">
+                <label for="Very Satisfied">Very Satisfied</label>
+                <br>
+                <input type="radio" id="Satisfied" name="satisfaction_level" value="Satisfied">
+                <label for="Satisfied">Satisfied</label>
+                <br>
+                <input type="radio" id="Neutral" name="satisfaction_level" value="Neutral">
+                <label for="Neutral">Neutral</label>
+                <br>
+                <input type="radio" id="Dissatisfied" name="satisfaction_level" value="Dissatisfied">
+                <label for="Dissatisfied">Dissatisfied</label>
+                <br>
+                <input type="radio" id="Very Dissatisfied" name="satisfaction_level" value="Very Dissatisfied">
+                <label for="Very Dissatisfied">Very Dissatisfied</label>
+            </div>
+        </section>
+
+        <section>
+            <br>
+            <br>
+            <p>What features do you value most?</p>
+            <div>
+                <input type="checkbox" id="ease_of_use" name="Value" value="ease_of_use">
+                <label for="ease_of_use">Ease of Use</label>
+                <br>
+                <input type="checkbox" id="performance" name="Value" value="performance">
+                <label for="performance">Performance</label>
+                <br>
+                <input type="checkbox" id="customer_support" name="Value" value="customer_support">
+                <label for="customer_support">Customer Support</label>
+            </div>
+        </section>
+
+        <section>
+            <br>
+            <br>
+            <br>
+            <label for="profession">What best describes you?</label>
+            <select id="profession" name="profession">
+                <option value="student">Student</option>
+                <option value="hobbyist">Hobbyist</option>
+                <option value="other">Other</option>
+            </select>
+        </section>
+        
+        <section>
+            <br>
+            <label for="feedback">Additional Feedback:</label>
+            <br>
+            <textarea id="feedback" name="feedback"></textarea>
+            <br>
+            <br>
+        </section>
+
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
