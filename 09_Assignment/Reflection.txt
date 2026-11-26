@@ -1,0 +1,1 @@
+This activity took me around 15-20 minutes to complete. The only problem I faced was the left-panel container was tightly hugging the divs abc thats why when I added a background color, the color only showed in between the boxes. To fix this, i simply added padding.

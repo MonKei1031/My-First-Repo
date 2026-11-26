@@ -1,0 +1,1 @@
+This activity took me about 10 minutes because the html code and the css code was already provided and the only file that needed to be changes was the css. I struggled on aligning the leftmost side of the purple box(aside) and green box(section) because I forgot to account for the padding code that I put which makes them refuse to align to the top and bottom boxes.
